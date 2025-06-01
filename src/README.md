@@ -3,7 +3,10 @@ home: true
 layout: Blog
 icon: house
 title: 主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+# heroImage: /77.jpg
+bgImage: /assets/images/erhai.jpg
+bgImageStyle:
+  background-attachment: fixed
 heroText: lxj的博客
 heroFullScreen: true
 tagline: 阅读、记录、分享、撸猫

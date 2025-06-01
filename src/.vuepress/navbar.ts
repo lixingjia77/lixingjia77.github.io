@@ -8,17 +8,18 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-          text: "LangGraph",
-          icon: "pen-to-square",
-          prefix: "langgraph/",
-          children: [
-            {
-              text: "LangGraph中的interrupt实现人机交互（HITL）",
-              icon: "pen-to-square",
-              link: "langgraph_interrupt",
-            },
-          ],
-        },
+        text: "LangGraph",
+        icon: "pen-to-square",
+        prefix: "langgraph/",
+        children: [
+          {
+            text: "LangGraph中的interrupt实现人机交互（HITL）",
+            icon: "pen-to-square",
+            link: "langgraph_interrupt",
+          },
+        ],
+      },
+      { text: "Hertz 源码学习笔记", icon: "pen-to-square", link: "hertz" },
       // {
       //   text: "苹果",
       //   icon: "pen-to-square",
