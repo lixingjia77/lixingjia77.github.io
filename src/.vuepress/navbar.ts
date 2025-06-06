@@ -20,6 +20,18 @@ export default navbar([
         ],
       },
       { text: "Hertz 源码学习笔记", icon: "pen-to-square", link: "hertz" },
+      {
+        text: "Seata",
+        icon: "pen-to-square",
+        prefix: "seata/",
+        children: [
+          {
+            text: "Seata源码学习笔记",
+            icon: "pen-to-square",
+            link: "1",
+          },
+        ],
+      },
       // {
       //   text: "苹果",
       //   icon: "pen-to-square",
